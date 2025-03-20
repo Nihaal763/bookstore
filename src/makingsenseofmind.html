@@ -19,13 +19,19 @@
         }
         @media screen and (orientation:landscape) {
             .feedback{
-            margin-left: 200px;
-            width: 400px; 
-            border: 2px solid black;
-            padding: 20px;
-            
+                margin-left: 200px;
+                width: 400px; 
+                border: 2px solid black;
+                padding: 20px;
+                
+            }
+            .top{
+                padding: 100px;
+                margin-left: 100px;
+                background-color: black;
+                color: white;
+            }
         }
-         }
         label{
             font-weight: bold;
             font-size: 25px;
@@ -42,12 +48,12 @@
     </style>
 </head>
 <body>
-    <div style="padding: 100px; background-color: black; color: white;"></div>
+    <div class="top" style="padding:100px;margin-left: 100px; background-color: black; color: white;">
         <img src="../public/images/pearson image 3.png" alt="" height="300px">
         <details>
             <summary>Making Sense of mindfulness</summary>
             <p>How to Practice Mindfulness</p>
-           <p>Benefits of Mindfulness</p> 
+            <p>Benefits of Mindfulness</p> 
         </details>
         <details>
             <summary>Index Page</summary>
@@ -67,19 +73,20 @@
             <a href="https://www.amazon.in/Making-Sense-Mindfulness-Principals-Integrate/dp/1683509528/ref=sr_1_1_sspa?crid=3B3U5L429ZM9R&dib=eyJ2IjoiMSJ9.RFnqGCguec4RSk4jQWvpKgYC7ff8SyFnwrKJhqaoR3kCsC_x2xxasx3IsV4lMo-TaI4qN-wrVilIQupDhvzWEI8zXStuazDzX2oeDhuMIQuxyjchNSe1CyoFU4j-SadJ3UWDK0b4N-ZLp_V_VTA0fxQIFbIuxlZN9IfW_4qQGqiPd1wkQcZ1Octa2CQjHKL4PnxqKqI67R6lXS7u5SzlH3EqOn1DSAydEEgVAFsWh6duUJLK6MOOR1oczUyYeXmy7Et0vC73X_PsBmfwnw23FMqV8pDqorm3YvDLdmA6m5Q.sVlO1FyzxhO0tsKPye2zOdODNuVF3tKhaE-5n0K1RnI&dib_tag=se&keywords=making+sense+of+mindfulness&qid=1742376611&sprefix=making+sense+of+mind%2Caps%2C240&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Amazon</a>
             <a href="https://www.flipkart.com/search?q=making%20sense%20of%20mindfulness%20book&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Flipkart</a>
         </details>
-            <div class="summary">Feedback</div>
+        <div class="summary">Feedback</div>
         <div class="feedback">
             <label for="feedback" class="font-size:25px;">Feedback form</label>
             <form action="" id="feedback">
-               <div style="font-weight: bold;">Name</div>
+                <div style="font-weight: bold;">Name</div>
                 <input type="text"size="25">
                 <div style="font-weight: bold;">Feedback</div>
                 <textarea name="" rows="8" cols="30" id="">
-    
-                </textarea><br>
                     
+                </textarea><br>
+                
                 <button class="btn btn-success">Submit</button>
             </form>
         </div>
-</body>
-</html>
+    </div>
+    </body>
+    </html>
